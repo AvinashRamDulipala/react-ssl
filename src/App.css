@@ -1,0 +1,685 @@
+#top-header-bar ul li a{
+	padding-left: 10px;
+    color: #fff;
+    padding: 6px 14px;
+    font: 11px/18px Open Sans;
+    display: inherit;
+}
+#top-header-bar ul li:not(:last-child) a:after {
+    content: '|';
+    position: absolute;
+    right: 0;
+    color: grey;
+}
+nav ul.navbar-nav>li:first-child>a, ul.lvl2>li>a {
+    padding-left: 20px;
+}
+.navbar-default .navbar-nav>li.active>a, .navbar-default .navbar-nav>li:hover>a {
+    color: #ff5d3b;
+    border-bottom: 2px solid #ff5d3b;
+}
+.navbar-default .navbar-nav>li>a {
+    text-transform: uppercase;
+    color: #333;
+    letter-spacing: .02em;
+}
+nav ul.navbar-nav>li>a {
+    font: 600 14px/16px Open Sans;
+    color: #333;
+    border-bottom: 2px solid transparent;
+    padding: 18px 30px 14px;
+    display: block;
+    letter-spacing: .02em;.
+     text-transform: uppercase;
+
+}
+ nav ul.navbar-nav>li>a:focus, nav ul.navbar-nav>li>a:hover {
+    color: red;
+    
+}
+hr{
+	border-top: 1px solid #ccc;
+}
+body{
+	font-size: 14px;
+}
+.container, .container-fluid {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navHeader .logo {
+    outline: 0;
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+    margin: 0;
+    width: 232px;
+    position: relative;
+    left: -5px;
+    height: 64px;
+    overflow: hidden;
+}
+.navHeader .logo a {
+    cursor: pointer;
+    display: inline-block;
+}
+.header-info-bar p::before {
+    content: '\2022';
+    font-size: 22px;
+    position: absolute;
+    left: 0;
+    top: -1px;
+    color: #ff5d3b;
+}
+.navHeader{
+    background-color: rgb(0, 0, 0);
+    padding: 0px;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    
+}
+.search {
+    position: relative;
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 412px;
+    float: right;
+}
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+.input-group .form-control, .input-group-addon, .input-group-btn {
+    display: table-cell;
+}
+.input-group .form-control {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+}
+.search input {
+    font: 15px/22px PTSans-Regular;
+    border: 1px solid transparent;
+    background-color: #f2f2f2;
+    height: 40px;
+    border-radius: 5px!important;
+    width: 100%;
+}
+.search input[type=submit] {
+    content: '';
+    position: absolute;
+    z-index: 3;
+    right: 16px;
+    top: 12px;
+    width: 18px;
+    height: 18px;
+    background: url(https://prodstatic.shoppersstop.com/_ui/responsive/common/assets/images/ssl-sprite.png?timeStamp=_ts@062606115711#ts_) -160px -288px;
+    opacity: .3;
+}
+.navbar-nav {
+    margin: 0px -20px;
+}
+#product-body .panel-body {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#product-body hr {
+	margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: 1px solid #efefef;
+}
+.breadcrumb{
+    background-color: transparent;
+}
+.navbar{
+	margin-bottom: 0px;
+    border: none;
+}
+ol li a a{
+	font-size: 12px;
+}
+.breadcrumb>li+li:before{
+	font-size: 12px;
+}
+.list-inline>li {
+    display: inline-block;
+   
+    position: relative;
+}
+
+.ex-checkbox {
+    position: relative;
+    font: 14px/26px PTSans-Regular;
+}
+ .ex-checkbox input[type=checkbox] {
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+    width: 17px;
+    height: 17px;
+    z-index: 10;
+    position: absolute;
+}
+.acc-checkbox label span a, .acc-radio input[type=radio]:checked, .acc-radio label span a, .ex-checkbox input[type=checkbox]:checked+label {
+    color: #666;
+}
+.filter-scroll {
+    width: auto;
+    padding-bottom: 20px;
+    max-height: 420px;
+    overflow: auto;
+}
+.scrollbar.disable {
+    display: none;
+}
+.filter-scroll .scrollbar {
+    background: #eee;
+    position: relative;
+    z-index: 99;
+    float: right;
+   
+}
+.filter-scroll .track {
+    background: #dcdcdc;
+    
+    width: 1px;
+    position: relative;
+    padding: 0 1px;
+}
+.filter-scroll .thumb {
+    background: #585858;
+    border-radius: 5px;
+  
+    width: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    position: absolute;
+    
+    left: -4px;
+}
+
+.track-order{
+    
+     height: 15px;
+      padding-right:5px;
+}
+.filter-wpr ul {
+    list-style-type: none;
+    margin: 0 0 20px;
+    padding: 0;
+}
+.filter-wpr ul li {
+    display: block;
+    padding: 0;
+    color: #666;
+}
+.filter-wpr ul li label {
+    font-weight: 400;
+    cursor: pointer;
+    vertical-align: -22%;
+    color: #666;
+}
+ .ex-checkbox label {
+    padding-left: 32px;
+    line-height: 140%;
+    font-weight: 400;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+.ex-checkbox input[type=checkbox]+label::before {
+    border: 1px solid #ccc;
+    width: 17px;
+    height: 17px;
+    content: "";
+    position: absolute;
+    left: 0;
+}
+.ex-checkbox input[type=checkbox]:checked+label::before {
+    background-color: #7f7f7f;
+    border: 1px solid #a6a6a6;
+    box-shadow: inset 0 0 0 2px #fff;
+}
+
+.filter-category-heading, .filter-category-heading .clear-filter, .filter-wpr ul li {
+    font: 13px/22px PTSans-Regular;
+        text-transform: uppercase;
+    font-family: PTSans-Regular;
+}
+.filter-category-heading .clear-filter {
+    padding-right: 30px;
+    margin-top: 1px;
+}
+.filter-category-heading .clear-filter a {
+    color: #999;
+    text-decoration: underline;
+}
+.filter-category-heading:after {
+    background-position: -414px -1240px;
+}
+.filter-category-heading.active:after, .filter-category-heading:after {
+    height: 14px;
+}
+a[aria-expanded="true"] .categoryLabels{
+    height: 15px;
+    width: 15px;
+    right: 0px;
+    margin-top: 13px;
+    position: absolute;
+    
+    background: url(https://prodstatic.shoppersstop.com/_ui/responsive/common/assets/images/ssl-sprite.png?timeStamp=_ts@070212060506#ts_) -419px -1244px no-repeat;
+}
+a[aria-expanded="false"] .categoryLabels{  
+    height: 15px;
+    width: 15px;
+    right: 0px;
+    margin-top: 10px;
+    position: absolute;
+    background-position: -394px -1240px;
+    
+    background: url(https://prodstatic.shoppersstop.com/_ui/responsive/common/assets/images/ssl-sprite.png?timeStamp=_ts@071205383038#ts_) -394px -1240px no-repeat;
+}
+.filter-category-heading.active:after, .filter-category-heading:after {
+    width: 20px;
+    max-height: 7px;
+    position: absolute;
+    right: 0;
+    margin-top: 12px;
+    content: "";
+}
+.filter-category-heading .clear-filter {
+    text-transform: lowercase;
+    float: right;
+}
+.filter-category-heading {
+    margin: 0 0 10px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.user-container {
+    float: right;
+    margin-top: 10px;
+}
+ .user-icons ul {
+    float: right;
+}
+.user-container ul li {
+    float: left;
+    position: relative;
+    list-style-type: none;
+}
+.user-container ul li a.wishlist {
+    padding-left: 34px;
+}
+.user-container ul li a {
+    font: 14px/22px Open Sans;
+    position: relative;
+    color: #fff;
+    padding: 14px 24px 24px 56px;
+    letter-spacing: .02em;
+    display: block;
+}
+.user-container ul li a.user {
+    padding-left: 21px;
+    padding-top: 8px;
+    height: 60px;
+    padding-bottom: 18px;
+    text-align: center;
+}
+ .user-icons ul li a {
+    float: left;
+    width: 100%;
+    height: 55px;
+    cursor: pointer;
+    margin: 0;
+}
+a, a:focus, a:hover {
+    text-decoration: none;
+    outline: 0;
+    color: #ff5d3b;
+}
+ .user-container ul li a.wishlist::before {
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: 15px;
+    width: 20px;
+    height: 19px;
+    background: url(https://prodstatic.shoppersstop.com/_ui/responsive/common/assets/images/ssl-sprite.png?timeStamp=_ts@062906003500#ts_) -12px -1534px no-repeat;
+}
+.user-container ul li a.bag::before {
+    content: '';
+    position: absolute;
+    left: 22px;
+    top: 13px;
+    width: 20px;
+    height: 20px;
+    background: url(https://prodstatic.shoppersstop.com/_ui/responsive/common/assets/images/ssl-sprite.png?timeStamp=_ts@062906003500#ts_) -462px -1496px no-repeat;
+}
+.user-container ul li:not(:last-child) a:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 1px;
+    height: 22px;
+    background-color: rgba(255,255,255,.5);
+}
+ .user-container ul li span.wish-count {
+    left: 10px;
+}
+ .user-container ul li a.user::before {
+    content: '';
+    position: absolute;
+    left: 22px;
+    top: 8px;
+    width: 34px;
+    height: 34px;
+    background: url(https://prodstatic.shoppersstop.com/_ui/responsive/common/assets/images/ssl-sprite.png?timeStamp=_ts@062906003500#ts_) -127px -551px no-repeat;
+    background-size: 250px;
+}
+ol, ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+ .price-calc .range-box {
+    padding: 4px;
+    width: 85px;
+}
+.price-calc .range-box {
+    border: 1px solid #e4dada;
+    
+    text-align: center;
+    color: #666;
+    
+    float: left;
+}
+ .price-calc .rupee {
+    float: left;
+}
+.rupee {
+    font-family: Rupakara!important;
+    font-weight: 400;
+}
+.price-calc input[type=text] {
+    border: none;
+    margin-left: 4px;
+    width: 60px;
+    font: 14px/20px PTSans-Regular;
+    float: left;
+    background: none;
+}
+
+.price-calc strong {
+    padding: 8px;
+}
+.price-calc strong {
+    padding: -1px 15px;
+    float: left;
+}
+.price-calc button {
+    clear: both;
+    
+    background: linear-gradient(to right,#ff5d3b 0,#ff2c65 100%);
+    color: #fff;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    font: 14px/22px PTSans-bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: none;
+    margin: 20px 0;
+}
+.brand-search input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background: right center;
+    border-bottom: 1px solid #ccc;
+    width: 98%;
+    font: 12px/18px PTSans-Regular;
+    padding: 0 20px 5px 0;
+    font-size: 12px;
+    color: #666;
+    outline-color: lavenderblush;
+}
+.brand-search span {
+    background: url(https://prodstatic.shoppersstop.com/_ui/responsive/common/assets/images/ssl-sprite.png?timeStamp=_ts@062906003500#ts_) -461px -752px no-repeat;
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    z-index: 0;
+    right: 5px;
+    top: 5px;
+}
+ .brand-search {
+    position: relative;
+    margin-bottom: 20px;
+}
+.heart-color{
+    width: 16px;
+    position: absolute;
+    height: 13px;
+    top: 15px;
+    left: 15px;
+    cursor: pointer;
+    background: url(https://test4.shopper-stop.in/_ui/responsive/common/assets/images/ssl-sprite.png?timeStamp=_ts@070220014001#ts_) -384px -336px no-repeat;
+    cursor: pointer;
+}
+.heart-color:hover{
+   cursor: pointer;
+    background-position: -416px -336px;
+}
+  a:hover {
+    text-decoration: none;
+    outline: 0;
+    color: #ff5d3b;
+}
+.user-icons ul li a:hover{
+    color: #ff5d3b;
+}
+.wishlist-pos{
+    position: absolute;
+    left: 10px;
+
+}
+.pull-right{
+    text-align: right;
+}
+.plpHeader {
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-family: PTSans-Regular;
+}
+.plpHeader h1 {
+    color: #666;
+    font: 22px/26px PTSans-bold;
+    letter-spacing: 1px;
+    margin: 0;
+    text-transform: uppercase;
+    width: 80%;
+    float: left;
+    font-weight: 400;
+}
+.plpHeader h1 span {
+    color: #999;
+    font: 14px/18px PTSans-Regular;
+    margin: 0;
+    letter-spacing: 1px;
+    position: relative;
+    top: -3px;
+
+}
+.header-info-bar {
+    background-color: #292929;
+    color: #fff;
+}
+.header-info-bar p {
+    margin: 6px 0;
+    font: 11px/18px Open Sans;
+    padding-left: 14px;
+    position: relative;
+}
+.plpHeader .heading-filter-sec {
+    float: right;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.heading-filter-sec .user-filter-plp {
+    margin-top: 0;
+}
+.heading-filter-sec .user-filter-plp .view-by {
+    float: right;
+    padding-top: 8px;
+}
+.heading-filter-sec .user-filter-plp .view-by label {
+    font: 14px/13px PTSans-Regular;
+    color: #666;
+    float: left;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+}
+.heading-filter-sec .user-filter-plp .view-by .grid, .heading-filter-sec .user-filter-plp .view-by .list {
+    display: block;
+}
+
+.heading-filter-sec .user-filter-plp .view-by ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.heading-filter-sec .user-filter-plp .view-by ul li {
+    float: left;
+    margin-left: 10px;
+    cursor: pointer;
+    opacity: .7;
+}
+.heading-filter-sec .user-filter-plp .view-by ul li.grid-view {
+    background: url(https://prodstatic.shoppersstop.com/_ui/responsive/common/assets/images/ssl-sprite.png?timeStamp=_ts@070212282228#ts_) -176px -192px no-repeat;
+    width: 16px;
+    height: 16px;
+}
+.heading-filter-sec .user-filter-plp .view-by ul li:last-child {
+    border-right: none;
+    padding-right: 0;
+}
+.heading-filter-sec .user-filter-plp .view-by ul li.list-view {
+    background: url(https://prodstatic.shoppersstop.com/_ui/responsive/common/assets/images/ssl-sprite.png?timeStamp=_ts@070212282228#ts_) -208px -192px no-repeat;
+    width: 16px;
+    height: 16px;
+}
+.sortBy {
+    padding-top: 10px;
+}
+.clearfix {
+    clear: both;
+}
+.sortBy>label {
+    float: left;
+    line-height: 13px;
+    padding-right: 7px;
+    font-weight: normal;
+}
+ul#sort-by-list li.active {
+    color: #ff5d3b;
+}
+.sortBy li, .sortBy li a {
+    color: #666;
+    font: 13px/13px PTSans-Regular;
+}
+.sortBy li {
+    border-right: 1px solid grey;
+    padding-right: 5px;
+    margin-right: 5px;
+    letter-spacing: 1px;
+}
+.color-and-size .colours, .sortBy li {
+    float: left;
+    cursor: pointer;
+}
+.sortBy li:last-child {
+    border-right: none;
+}
+.breadcrumb li a {
+    color: #999;
+}
+.sticky-header .shopbyCat {
+    display: block;
+    cursor: pointer;
+}
+.shopbyCat {
+    float: left;
+    margin-top: 15px;
+    margin-right: 22px;
+    height: 48px;
+   
+}
+.shopbyCat::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 22px;
+    width: 8px;
+    height: 22px;
+    background: url(https://prodstatic.shoppersstop.com/_ui/responsive/common/assets/images/ssl-sprite.png?timeStamp=_ts@070212443844#ts_) -45px -1534px no-repeat;
+}
+.shopbyCat span {
+    font: 11px/11px PTSans-Regular;
+    color: #fff;
+}
+.shopbyCat p {
+    font: 14px/11px PTSans-Regular;
+    color: #fff;
+    margin: 0;
+}
+.loader {
+    text-align: center;
+    margin-bottom: 10px;
+    display: none;
+}
+.filter-scroll::-webkit-scrollbar-track {
+    background: #dcdcdc;
+   
+    border-left: 4px solid rgb(239, 239, 239);
+    border-right: 4px solid rgb(239, 239, 239);
+}
+.filter-scroll::-webkit-scrollbar-thumb {
+    background-color: #585858;
+    border-radius: 5px;
+    width: 10px;
+    position: absolute;
+    
+}
+.filter-scroll::-webkit-scrollbar {
+    width: 10px;
+}
+.panel-group .panel {
+    margin-bottom: 0;
+    border-radius: 4px;
+    background-color: #efefef;
+}
+#accordion-example a{
+    color: #666;
+}
+.panel-default {
+   
+    border-color: #efefef;
+}
+.isHide{
+    display: none;
+}
+.isHovered{
+    display: block;
+}

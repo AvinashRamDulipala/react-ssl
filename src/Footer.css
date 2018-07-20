@@ -1,0 +1,412 @@
+#footer .add-new {
+    text-align: center;
+    background: #cdcdcd;
+    font: 30px/22px DancingScript-Bold;
+    color: #fff;
+    padding: 21px 0 24px;
+    width: 100%;
+    float: left;
+}
+#footer .add-new p {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    font-family: 'DancingScriptRegular'; 
+   font-weight: bold; 
+   font-style: normal; 
+}
+.ssl-services {
+    text-align: center;
+        padding-top: 15px;
+}
+.clearfix {
+    clear: both;
+}
+ul {
+    list-style-type: none;
+}
+*, .sbt-button, ul {
+    padding: 0;
+    margin: 0;
+}
+.ssl-services li {
+    vertical-align: top;
+    min-width: 0;
+}
+.ssl-services li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.ssl-services li img {
+    max-width: 61px;
+}
+.ssl-services li span {
+    max-width: 70px;
+    font-size: 11px;
+}
+.ssl-services li span {
+    display: block;
+    padding-top: 10px;
+    font-family: PTSans-Regular;
+    color: #999;
+}
+img {
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+     height: auto;
+}
+
+.main-footer .payment-subscribe {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#footer .payment-subscribe {
+    background: #f9f9fa;
+    padding: 39px 0 51px;
+    width: 100%;
+    float: left;
+}
+.footer-light-graysection {
+    background: #f9f9fa;
+    float: left;
+    padding: 30px 0 20px;
+    width: 100%;
+    letter-spacing: 1px;
+}
+.container, .container-fluid {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.container {
+    width: 1272px;
+}
+.container, .container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+}
+.footer-light-graysection strong {
+    text-transform: uppercase;
+    font-family: PTSans-Regular;
+    color: #646464;
+    font-size: 14px;
+    display: block;
+    padding-bottom: 15px;
+    font-weight: 400;
+}
+.download-app-on ul li {
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+a, a:focus, a:hover {
+    text-decoration: none;
+    outline: 0;
+    color: #ff5d3b;
+}
+.fa-stack, img {
+    vertical-align: middle;
+}
+.newsletter-section {
+    width: 90%;
+    background: #fff;
+    min-height: 10px;
+}
+.newsletter-section .newsletter-section-inner {
+    width: 100%;
+    padding-right: 170px;
+    position: relative;
+}
+.newsletter-section .newsletter-section-inner:before {
+    background: url(https://prodstatic.shoppersstop.com/_ui/responsive/common/assets/images/ssl-sprite.png?timeStamp=_ts@070212282228#ts_) -379px -9px no-repeat #fff;
+    content: "";
+    height: 38px;
+    left: 1px;
+    position: absolute;
+    top: 1px;
+    width: 32px;
+}
+.newsletter-section .newsletter-section-inner .form-control-newsletter[placeholder] {
+    color: #999!important;
+    opacity: 1;
+}
+
+.newsletter-section .newsletter-section-inner .form-control-newsletter {
+    background: rgba(0,0,0,0);
+    border-color: #c5cdd2 #fff #c5cdd2 #c5cdd2;
+    border-style: solid;
+    border-width: 1px;
+    color: #999;
+    font: 12px/15px PTSans-Regular;
+    height: 40px;
+    padding: 0 10px 0 32px;
+    width: 100%;
+}
+.newsletter-section .newsletter-section-inner .sbt-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 170px;
+    height: 40px;
+    background: #fff2f0;
+    color: #ff5d3b;
+    border: 1px solid rgba(255,93,59,.2);
+}
+
+.follow-us ul {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.follow-us ul li {
+    float: left;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+.follow-us ul li.facebook-icon a {
+    background: url(https://prodstatic.shoppersstop.com/_ui/responsive/common/assets/images/ssl-sprite.png?timeStamp=_ts@070212282228#ts_) -53px -639px no-repeat;
+}
+.follow-us ul li.twitter-icon a {
+    background: url(https://prodstatic.shoppersstop.com/_ui/responsive/common/assets/images/ssl-sprite.png?timeStamp=_ts@070212282228#ts_) -15px -640px no-repeat;
+}
+.follow-us ul li.pinterest-icon a {
+    background: url(https://prodstatic.shoppersstop.com/_ui/responsive/common/assets/images/ssl-sprite.png?timeStamp=_ts@070212282228#ts_) -118px -638px no-repeat;
+}
+.follow-us ul li.google-plus-icon a {
+    background: url(https://prodstatic.shoppersstop.com/_ui/responsive/common/assets/images/ssl-sprite.png?timeStamp=_ts@070212282228#ts_) -83px -639px no-repeat;
+}
+.follow-us ul li.instagram-icon a {
+    background: url(https://prodstatic.shoppersstop.com/_ui/responsive/common/assets/images/ssl-sprite.png?timeStamp=_ts@070212282228#ts_) -319px -691px no-repeat;
+    opacity: .45;
+}
+.follow-us ul li a {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+.cp-footer {
+    text-align: center;
+    background: #fff;
+}
+.cp-footer .checkout-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.cp-footer .cp-subfoot {
+    padding: 18px 0 26px 8px;
+    width: 100%;
+    float: left;
+}
+.cp-footer .cp-subfoot .content .ssl-services {
+    padding: 0;
+    display: inline-block;
+}
+.cp-footer .cp-subfoot .questions-call {
+    float: none;
+    position: relative;
+    margin: 0;
+    left: auto;
+    width: auto;
+}
+.cp-footer .cp-subfoot .questions-call:after, .cp-footer .cp-subfoot .questions-call:before {
+    position: absolute;
+    bottom: 4px;
+    height: 32px;
+    width: 1px;
+    background: #e5e5e5;
+    content: "";
+}
+.cp-footer .cp-subfoot .questions-call h5 {
+    text-transform: uppercase;
+    font: 13px/18px PTSans-Bold;
+    position: relative;
+    display: inline-block;
+}
+.cp-footer .cp-subfoot .questions-call h5:before {
+    content: "";
+    position: absolute;
+    left: -28px;
+    top: -3px;
+    width: 21px;
+    height: 22px;
+    background: url(/_ui/responsive/common/assets/images/ssl-sprite.png?timeStamp=_ts@070212282228#ts_) -112px -512px no-repeat;
+}
+.cp-footer .cp-subfoot .verified-secure  .pay-secure h5 .verfied h5 {
+    text-transform: uppercase;
+    color: #999;
+    font: 13px/18px PTSans-Bold;
+    margin: 0;
+    padding: 0;
+}
+.cp-footer .cp-subfoot .questions-call .call {
+    display: inline-block;
+    color: #999;
+    font: 13px/18px PTSans-Regular;
+    padding: 0 4px 0 0;
+}
+.cp-footer .cp-subfoot .questions-call .call span>a {
+    color: #999;
+    text-decoration: none;
+}
+.cp-footer .cp-subfoot .verified-secure .verfied {
+    float: left;
+    margin: 10px 20px 0;
+    padding: 0 0 2px;
+    width: auto;
+}
+.cp-footer .cp-subfoot .verified-secure .verfied ul li {
+    float: none;
+    display: inline-block;
+}
+.cp-footer .cp-subfoot .verified-secure .verfied ul li {
+    width: 58px;
+    margin: 0 10px 0 0;
+}
+.cp-footer .cp-subfoot .verified-secure .pay-secure {
+    width: 162px;
+    float: right;
+    margin: 10px 0 0;
+    padding: 0 0 2px;
+}
+.cp-footer .cp-subfoot .verified-secure .pay-secure ul li {
+    width: 47px;
+    float: left;
+    margin: 0 10px 0 0;
+}
+.cp-footer .cp-subfoot .verified-secure .pay-secure ul li {
+    display: inline-block;
+    padding-top: 10px;
+}
+.cp-footer .cp-subfoot .verified-secure .pay-secure ul li:nth-last-child(1) {
+    margin: 0;
+}
+.cp-footer .cp-subfoot .verified-secure .pay-secure ul li {
+    width: 47px;
+    float: left;
+    margin: 0 10px 0 0;
+}
+#footer .foot-links {
+    background: #000;
+    border-bottom: solid 1px #3d3d3d;
+    padding: 23px 0 33px;
+    width: 100%;
+    float: left;
+}
+#footer .foot-links .foot-link-wrap>ul>li {
+    float: left;
+    width: 207px;
+    margin: 0;
+    word-wrap: break-word;
+}
+#footer .foot-links .foot-link-wrap>ul>li>div {
+    text-transform: uppercase;
+}
+#footer .foot-links .foot-link-wrap>ul>li>div h4 {
+    color: #fff;
+    font: 14px/38px PTSans-Regular;
+    margin: 0;
+    padding: 0 0 4px;
+}
+#footer .foot-links .foot-link-wrap>ul>li>div>ul>li>a {
+    color: #999;
+    font: 12px/22px PTSans-Regular;
+}
+#footer .foot-links .foot-link-wrap>ul>li:nth-last-child(1) {
+    width: 190px;
+    float: right;
+}
+#footer .foot-links .foot-link-wrap>ul>li {
+   
+    margin: 0;
+    word-wrap: break-word;
+}
+#footer .foot-links .foot-link-wrap {
+    padding: 0;
+}
+.row {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+#footer .foot-links .foot-link-wrap>ul>li>div>ul {
+    display: block;
+}
+#footer .copyrights p, #footer .foot-links .foot-link-wrap>ul>li:nth-last-child(1)>div>ul>li {
+    display: inline-block;
+}
+#footer .foot-links .foot-link-wrap>ul>li>div>ul>li>a {
+    color: #999;
+    font: 12px/22px PTSans-Regular;
+}
+#footer .foot-links .foot-link-wrap>ul>li:nth-last-child(1)>div>ul>li>a[href^="mailto:"] {
+    text-decoration: underline;
+    text-transform: none;
+}
+#footer .copyrights {
+    background: #000;
+    font: 10px/22px PTSans-Regular;
+    color: #fff;
+    padding: 9px 0;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    width: 100%;
+    float: left;
+}
+#footer .copyrights ul li {
+    display: inline-block;
+    margin: 0 33px 0 0;
+}
+#footer .copyrights ul li a {
+    color: #fff;
+}
+#footer .copyrights ul li:nth-last-child(1) {
+    margin: 0;
+}
+.row {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+#footer .copyrights ul {
+    float: right;
+}
+#footer .add-new {
+    text-align: center;
+    font: 30px/22px DancingScript-Bold;
+    color: #fff;
+   
+}
+
+.footerBttm-background {
+    background: #f9f9fa;
+    width: 100%;
+}
+.footerBttm {
+    margin: 15px auto;
+    padding: 15px;
+    background: #f9f9fa;
+}
+.linkContent70px {
+    margin-top: 70px!important;
+}
+
+.comp-PTSfont-only {
+    font-family: PTSans-Regular!important;
+}
+.back-to-top {
+    width: 40px;
+    height: 40px;
+    background: url(https://prodstatic.shoppersstop.com/_ui/responsive/common/assets/images/back-to-top-icon.png?timeStamp=_ts@070212282228#ts_) center center no-repeat #000;
+    right: 20px;
+    bottom: 48px;
+    cursor: pointer;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px 100px 100px 100px;
+    -ms-border-radius: 100px 100px 100px 100px;
+    opacity: .7;
+    z-index: 1000;
+}
+
+.back-to-top, .bodyoverflow {
+    position: fixed;
+}

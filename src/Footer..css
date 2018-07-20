@@ -1,0 +1,20 @@
+#footer .add-new {
+    text-align: center;
+    background: #cdcdcd;
+    font: 30px/22px DancingScript-Bold;
+    color: #fff;
+    padding: 21px 0 24px;
+    width: 100%;
+    float: left;
+}
+#footer .add-new p {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+.ssl-services {
+    text-align: center;
+}
+.clearfix {
+    clear: both;
+}

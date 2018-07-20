@@ -1,0 +1,30 @@
+{
+  "name": "shopperstop",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "mdbreact": "^4.5.0",
+    "react": "^16.4.1",
+    "react-bootstrap": "^0.32.1",
+    "react-bottom-scroll-listener": "^1.2.0",
+    "react-collapse": "^4.0.3",
+    "react-collapsible-component": "^1.1.0",
+    "react-collapsible-react16": "^16.0.1",
+    "react-custom-scroll": "^3.2.2",
+    "react-custom-scrollbar": "^1.0.0",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-dom": "^16.4.1",
+    "react-if-elseif-else-render": "^1.0.2",
+    "react-scripts": "1.1.4",
+    "react-scroll-up-button": "^1.6.0",
+    "react-scrollbar": "^0.5.4",
+    "react-scrollbar-js": "^1.0.1",
+    "reactstrap": "^6.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
